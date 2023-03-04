@@ -4,13 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Consumer;
-import lesson6.game.RobotMap.Robot;
-
-interface RobotInterface {
-    public void changeDirection(Direction direction);
-    public void move();
-    public void deleteRobot(Robot robot);
-}
 
 public class RobotMap {
 
